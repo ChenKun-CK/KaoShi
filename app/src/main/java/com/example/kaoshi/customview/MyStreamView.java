@@ -1,4 +1,4 @@
-package com.example.kaoshi.myview;
+package com.example.kaoshi.customview;
 
 import android.content.Context;
 import android.util.AttributeSet;

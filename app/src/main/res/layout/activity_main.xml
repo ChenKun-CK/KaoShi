@@ -7,13 +7,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.example.kaoshi.myview.MyTitleView
+    <com.example.kaoshi.customview.MyTitleView
         android:id="@+id/title"
         android:layout_width="match_parent"
         app:textColor="@color/colorAccent"
         android:layout_height="56dp"/>
 
-    <com.example.kaoshi.myview.MyStreamView
+    <com.example.kaoshi.customview.MyStreamView
         android:id="@+id/search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
