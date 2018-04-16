@@ -8,8 +8,6 @@ import android.view.ViewGroup;
  * author:Created by WangZhiQiang on 2018/4/16.
  */
 public class MyStreamView extends ViewGroup {
-
-
     private int mleftMargin=20;
     private int mtopMargin=20;
 
