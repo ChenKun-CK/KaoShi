@@ -2,9 +2,7 @@ package com.example.kaoshi.myview;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.graphics.Canvas;
 import android.util.AttributeSet;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
@@ -18,7 +16,6 @@ public class MyTitleView extends RelativeLayout{
 
     private EditText editText;
     private ImageView imageView;
-    private Button button;
 
     public MyTitleView(Context context) {
         this(context,null);
@@ -58,17 +55,5 @@ public class MyTitleView extends RelativeLayout{
 
     public ImageView getImageView(){
         return imageView;
-    }
-
-    @Override
-    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-
-    }
-
-    @Override
-    protected void onDraw(Canvas canvas) {
-        super.onDraw(canvas);
-
     }
 }
